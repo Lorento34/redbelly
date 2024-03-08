@@ -38,11 +38,17 @@ Bunun için ben Godaddy platformunu kullandım. Kullanımı basit ve fiyat olara
 ![3](https://github.com/Lorento34/redbelly/assets/84406096/449e4065-3656-46f4-9504-28dd66bb2fe0)
 
 
+4-	Bu kısımda planı seçeceğiz. Cloudflare’nin verdiği hizmetler paralı olduğu için bazı planlar var. Ama biz en aşağıda ki ```free``` seçeceğiz. Bu ücretsiz plan. Daha sonra ```Continue``` butonuna tıklıyoruz ve devam ediyoruz…
 
 
 
+![4](https://github.com/Lorento34/redbelly/assets/84406096/49b525d3-9558-4ba7-b6fa-c706290c3b26)
 
 
+5-	Bir sonra ki ekranda hazır ayarlar gelirse -ki bazen gelmiyor- hepsini ```Delete``` tıklayarak Silin. Hepsini sildikten sonra ```Add record``` yazan yere tıklayın…
+
+
+![5](https://github.com/Lorento34/redbelly/assets/84406096/208dcaa7-1438-447e-9c1a-76038db184be)
 
 
 
