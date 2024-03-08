@@ -51,6 +51,15 @@ Bunun için ben Godaddy platformunu kullandım. Kullanımı basit ve fiyat olara
 ![5](https://github.com/Lorento34/redbelly/assets/84406096/208dcaa7-1438-447e-9c1a-76038db184be)
 
 
+6-	Bu sayfada dikkat etmeniz gereken ve ayarlama yapmanız gereken 4 kısım var. Numara ile belirttim.
+-	Kısımda ‘’Type’’ A seçeceksiniz
+-	Kısımda domain adresinizi yazacaksınız. Https, www gibi şeyler yazmayın. Aşağıda ki gibi olsun.
+-	Kısımda Ip adresinizi yazacaksınız.
+-	Kısımda ‘’Proxy Status’’ kapatacaksınız. Aşağıda ki gibi olacak.
+  
+Tüm bu ayarlamaları yaptıktan sonra ‘’Save’’ butonuna tıklayın ve ardından ‘’Continue’’ butonuna tıklayıp devam edin…
+
+
 
 
 
