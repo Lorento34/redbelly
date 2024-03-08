@@ -68,18 +68,31 @@ Düğüm (Node) Kurulumu
 
 1-Aşağıdaki komutu kullanarak paket listenizin güncel olduğundan emin olun
 
-```sudo apt update```
+```
+sudo apt update
+```
 
 2- Aşağıdaki komutu kullanarak certbot yardımcı programını sisteminize yükleyin 
 
-```sudo apt install snapd```
-```sudo snap install --classic certbot```
-```sudo ln -s /snap/bin/certbot /usr/bin/certbot```
+```
+sudo apt install snapd
+```
+```
+sudo snap install --classic certbot
+```
+```
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+```
 
 3- DNS/FQDN'nizi doğrulamak ve sertifikayı vermek için certbot tarafından kullanılacak olan 80 numaralı bağlantı noktasında hiçbir işlemin çalışmadığından emin olun
 
-```apt install net-tools```
-```netstat -an | grep 80```
+```
+apt install net-tools
+```
+
+```
+netstat -an | grep 80
+```
 
 4- Aşağıda ki komutu komple kopyalayın ve bir metin belgesine kaydedin. Ardından xxx@mail.com ve domainadresiniz.com’u kendi bilgilerinize göre değiştirin. Aşağıda ki bilgilere göre çalıştırmayın bu komutu kesinlikle! Bu komutu girdikten sonra domaininize sertifika almış olacaksınız.
 
@@ -90,6 +103,7 @@ Düğüm (Node) Kurulumu
 email=xxx@mail.com
 fqn=domainadresiniz.com
 sudo certbot certonly --standalone -d $fqn. --non-interactive --agree-tos -m $email
-sudo chown -R $USER:$USER /etc/letsencrypt/```
+sudo chown -R $USER:$USER /etc/letsencrypt/
+```
 
 
