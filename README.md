@@ -52,10 +52,10 @@ Bunun için ben <a href="https://www.godaddy.com/en-ie">Godaddy</a> platformunu 
 
 
 6- Bu sayfada dikkat etmeniz gereken ve ayarlama yapmanız gereken 4 kısım var. Numara ile belirttim.
-- 1- ```Type```’ A seçeceksiniz
-	2- Domain adresinizi yazacaksınız. Https, www gibi şeyler yazmayın. Aşağıda ki gibi olsun.
-	3- Ip adresinizi yazacaksınız.
-	4- ```Proxy Status``` kapatacaksınız. Aşağıda ki gibi olacak.
+- 1- ```Type``` A seçeceksiniz
+- 2- Domain adresinizi yazacaksınız. Https, www gibi şeyler yazmayın. Aşağıda ki gibi olsun.
+- 3- Ip adresinizi yazacaksınız.
+- 4- ```Proxy Status``` kapatacaksınız. Aşağıda ki gibi olacak.
   
 Tüm bu ayarlamaları yaptıktan sonra ```Save``` butonuna tıklayın ve ardından ```Continue``` butonuna tıklayıp devam edin…
 
