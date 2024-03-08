@@ -25,17 +25,12 @@ Bunun için ben Godaddy platformunu kullandım. Kullanımı basit ve fiyat olara
 
 ![1](https://github.com/Lorento34/redbelly/assets/84406096/67acac57-f871-4846-835b-b802496fa812)
 
-2-	Sizi şöyle bir ekran karşılıyacak. ‘’Add a website or application’’ yazan butona tıklayın.
+2-	Sizi şöyle bir ekran karşılıyacak. ```‘’Add a website or application’’``` yazan butona tıklayın.
 
 
 ![2](https://github.com/Lorento34/redbelly/assets/84406096/dad248d4-43ae-40f0-b1ae-2d0a844983fb)
 
-<blockquote>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada
-    fames ac turpis egestas maecenas pharetra convallis. Eget egestas purus
-    viverra accumsan in nisl nisi scelerisque.</p>
-</blockquote>
+
 
 
 
