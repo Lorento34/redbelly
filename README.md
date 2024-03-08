@@ -12,3 +12,5 @@ Redbelly Network düğümünü (Node) çalıştırmak için minimum donanım ger
 - Ağ Bant Genişliği: 40 Mbps
 - TCP bağlantı noktaları: 8545, 8546, 1111 ve 1888 (Önerilir)
 
+
+Arkadaşlar rehber biraz uzun olacak sözlü anlatıp geçtiğimde biliyorum ki telegramda birçok kişi anlayamayacak ve nasıl olduğunu soracak ya da birçok kişi hata alacak. Bu karışıklığın önüne geçmek için ve aramıza yeni katılanları da düşünerek ayrıntılı ve resimli bir rehber hazırlıyorum. Rehberde ki adımları dikkatlice okuyup, takip ederseniz sorunsuz bir şekilde kurulumu tamamlayabilirsiniz. Ben bu rehbere göre yaptım ve çalışıyor. Kurulum 3 adımdan oluşacak. Bunlar, domain satın alma, domain için Dns yapılandırılması ve düğüm (node) kurulumu. 
