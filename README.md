@@ -96,8 +96,8 @@ netstat -an | grep 80
 
 4- Aşağıda ki komutu komple kopyalayın ve bir metin belgesine kaydedin. Ardından xxx@mail.com ve domainadresiniz.com’u kendi bilgilerinize göre değiştirin. Aşağıda ki bilgilere göre çalıştırmayın bu komutu kesinlikle! Bu komutu girdikten sonra domaininize sertifika almış olacaksınız.
 
-👉 Önemli Not:   Aşağıda ki komutu kesinlikle kendi bilgilerinize göre değiştirin!!!
-👉 Önemli Not 2: Komutları sunucuda tek tek değil komple olarak kopyalayıp çalıştıracaksınız!
+👉 - Önemli Not:   Aşağıda ki komutu kesinlikle kendi bilgilerinize göre değiştirin!!!
+👉 - Önemli Not 2: Komutları sunucuda tek tek değil komple olarak kopyalayıp çalıştıracaksınız!
 
 ```
 email=xxx@mail.com
