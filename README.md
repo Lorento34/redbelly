@@ -21,7 +21,7 @@ Bunun için ben Godaddy platformunu kullandım. Kullanımı basit ve fiyat olara
 
 <h1>Dns Yönlendirme:<h6>
 
-<h2>1- Bu işlem için <a href="https://dash.cloudflare.com/sign-up">Cloudflare</a>  sitesine gidin ve üyelik oluşturun. Mailinize gelen doğrulama linkine tıklayarak mail adresinizi doğrulayın.<h2>
+<h1>1- Bu işlem için <a href="https://dash.cloudflare.com/sign-up">Cloudflare</a>  sitesine gidin ve üyelik oluşturun. Mailinize gelen doğrulama linkine tıklayarak mail adresinizi doğrulayın.<h1>
 
 ![1](https://github.com/Lorento34/redbelly/assets/84406096/67acac57-f871-4846-835b-b802496fa812)
 
