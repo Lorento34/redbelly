@@ -31,10 +31,11 @@ Bunun için ben Godaddy platformunu kullandım. Kullanımı basit ve fiyat olara
 ![2](https://github.com/Lorento34/redbelly/assets/84406096/dad248d4-43ae-40f0-b1ae-2d0a844983fb)
 
 
+3-	Bir sonra ki adımda şöyle bir ekran gelecek. ```‘’Enter domain name’’``` yazan yere satin aldığınız domain adını yazın. Domainin başında https, www gibi şeyler yazmayın. Aşağıda ki gibi olsun. Sonra ```‘’enter’’``` butonuna tıklayı ve devam edin…
 
 
 
-
+![3](https://github.com/Lorento34/redbelly/assets/84406096/449e4065-3656-46f4-9504-28dd66bb2fe0)
 
 
 
