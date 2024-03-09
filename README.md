@@ -28,11 +28,11 @@ Bunun için ben <a href="https://www.godaddy.com/en-ie">__Godaddy__</a> platform
 
 # Dns Yönlendirme
 
-1- Bu işlem için <a href="https://dash.cloudflare.com/sign-up">Cloudflare</a>  sitesine gidin ve üyelik oluşturun. Mailinize gelen doğrulama linkine tıklayarak mail adresinizi doğrulayın.
+#### 1- Bu işlem için <a href="https://dash.cloudflare.com/sign-up">Cloudflare</a>  sitesine gidin ve üyelik oluşturun. Mailinize gelen doğrulama linkine tıklayarak mail adresinizi doğrulayın.
 
 ![1](https://github.com/Lorento34/redbelly/assets/84406096/67acac57-f871-4846-835b-b802496fa812)
 
-2- Sizi şöyle bir ekran karşılıyacak. ```Add a website or application``` yazan butona tıklıyoruz...
+#### 2- Sizi şöyle bir ekran karşılıyacak. ```Add a website or application``` yazan butona tıklıyoruz...
 
 
 ![2](https://github.com/Lorento34/redbelly/assets/84406096/dad248d4-43ae-40f0-b1ae-2d0a844983fb)
