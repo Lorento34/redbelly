@@ -187,9 +187,9 @@ sudo ufw allow 1111
 
 8- Config dosyasını yapılandıracağız. Hata almamak için yapmanız gerekenleri dikkatli bir şekilde okuyun. Aşağıda ki komutu metin belgesine kaydedin. Kendi bilgilerinize göre değiştireceğimiz 3 kısım var. Değiştireceğimiz kısımlar şöyle;
 
-```Ip: domain adresiniz```
-```Id: size verilen Numara```
-```privateKeyHex: Metamask adresinizin private key’i```
+- ```Ip: domain adresiniz```
+- ```Id: size verilen Numara```
+- ```privateKeyHex: Metamask adresinizin private key’i```
 
 > [!CAUTION]
 > - Aşağıda ki komut rastgele bilgilerle örnek olsun diye yazılmıştır. Kesinlikle kendi bilgilerinize göre düzenleyin :bangbang:
