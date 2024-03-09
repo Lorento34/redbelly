@@ -156,7 +156,7 @@ netstat -an | grep 80
 > - Aşağıda ki komutu kesinlikle kendi bilgilerinize göre değiştirin :bangbang:
 > - Komutları kendi bilginize göre düzenledikten sonra sunucuda tek tek değil komple olarak kopyalayıp çalıştırın :bangbang:
 
-```Astro
+```Swift
 email=xxx@mail.com
 fqn=domainadresiniz.com
 sudo certbot certonly --standalone -d $fqn. --non-interactive --agree-tos -m $email
@@ -190,7 +190,7 @@ Daha sonra bu indirdiğiniz iki dosyayı ```winscp``` ya da ```termius``` gibi u
 
 7- Güvenlik duvarı yapılandıracağız. Aşağıdaki UFW komutlarını kullanarak ```<b>80, 8545, 1888 ve 1111</b>``` numaralı bağlantı noktalarına izin vermemiz gerekiyor.
 
-```AppleScript
+```Sieve
 sudo ufw enable
 sudo ufw allow 22
 sudo ufw allow 80
@@ -215,7 +215,7 @@ nano config.yaml
 
 Komutu düzenledikten sonra komutun hepsin sunucunuza yapıştırın. <b>```Ctrl + o```</b> , enter ve <b>```ctrl + x```</b> yaparak çıkış yapın. 
 
-```ApacheConf
+```Processing
 ip: lorento.app
 id: 33
 genesisContracts:
@@ -257,7 +257,7 @@ Burada SSL sertifikasının ve özel anahtarın yolunu değiştiriyoruz. Boşluk
 
 
 
-```AngelScript
+```Mask
 #!/bin/sh
 # filename: observe.sh
 if [ ! -d rbn ]; then
@@ -300,7 +300,7 @@ nano start-rbn.sh
 
 13- Aşağıda ki komutta bir değişiklik yapmadan direkt sunucuda çalıştırın.
 
-```Agda
+```Boo
 #!/bin/sh
 # filename: start-rbn.sh
 mkdir -p binaries
