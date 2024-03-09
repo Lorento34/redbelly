@@ -124,29 +124,29 @@ Tüm bu ayarlamaları yaptıktan sonra ```Save``` butonuna tıklayın ve ardınd
 
 1- Paket listenizini güncelleyin.
 
-```ruby
+```Zig
 sudo apt update
 ```
 
 2- Certbot yardımcı programını sunucuya yükleyin.
 
-```ruby
+```cURL Config
 sudo apt install snapd
 ```
-```ruby
+```desktop
 sudo snap install --classic certbot
 ```
-```ruby
+```dircolors
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
 
 3- DNS/FQDN'nizi doğrulamak ve sertifikayı vermek için certbot tarafından kullanılacak olan 80 numaralı bağlantı noktasında hiçbir işlemin çalışmadığından emin olun.
 
-```ruby
+```eC
 apt install net-tools
 ```
 
-```ruby
+```edn
 netstat -an | grep 80
 ```
 
@@ -156,7 +156,7 @@ netstat -an | grep 80
 > - Aşağıda ki komutu kesinlikle kendi bilgilerinize göre değiştirin :bangbang:
 > - Komutları kendi bilginize göre düzenledikten sonra sunucuda tek tek değil komple olarak kopyalayıp çalıştırın :bangbang:
 
-```E-mail
+```fish
 email=xxx@mail.com
 fqn=domainadresiniz.com
 sudo certbot certonly --standalone -d $fqn. --non-interactive --agree-tos -m $email
@@ -165,13 +165,13 @@ sudo chown -R $USER:$USER /etc/letsencrypt/
 
 5- Bağımlılıkları yükleme/yükseltme
 
-```ruby
+```hoon
 sudo apt-get update
 ```
-```ruby
+```jq
 sudo apt-get install -y cron curl unzip
 ```
-```ruby
+```kvlang
 sudo DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
 ```
 
@@ -190,7 +190,7 @@ Daha sonra bu indirdiğiniz iki dosyayı ```winscp``` ya da ```termius``` gibi u
 
 7- Güvenlik duvarı yapılandıracağız. Aşağıdaki UFW komutlarını kullanarak ```<b>80, 8545, 1888 ve 1111</b>``` numaralı bağlantı noktalarına izin vermemiz gerekiyor.
 
-```ruby
+```mIRC Script
 sudo ufw enable
 sudo ufw allow 22
 sudo ufw allow 80
@@ -215,7 +215,7 @@ nano config.yaml
 
 Komutu düzenledikten sonra komutun hepsin sunucunuza yapıştırın. <b>```Ctrl + o```</b> , enter ve <b>```ctrl + x```</b> yaparak çıkış yapın. 
 
-```ruby
+```mcfunction
 ip: lorento.app
 id: 33
 genesisContracts:
@@ -243,7 +243,7 @@ rpcPoolConfig:
 
 10- observe.sh dosyasını yapılandıracağız.
 
-```ruby
+```mupad
 nano observe.sh
 ```
 
@@ -257,7 +257,7 @@ Burada SSL sertifikasının ve özel anahtarın yolunu değiştiriyoruz. Boşluk
 
 
 
-```ruby
+```nanorc
 #!/bin/sh
 # filename: observe.sh
 if [ ! -d rbn ]; then
@@ -294,13 +294,13 @@ rm -f log
 
 12- Start-rbn.sh dosyasını yapılandıracağız.
 
-```ruby
+```nesC
 nano start-rbn.sh
 ```
 
 13- Aşağıda ki komutta bir değişiklik yapmadan direkt sunucuda çalıştırın.
 
-```ruby
+```ooc
 #!/bin/sh
 # filename: start-rbn.sh
 mkdir -p binaries
@@ -313,22 +313,22 @@ nohup ./observe.sh > ./logs/rbbcLogs 2>&1 &
 
 14- Kurlumun bu kadar. Şimdi sadece düğümü (Node) çalıştırmaya geldi sıra. Aşğıda ki komutları sırasıyla sunucuda çalıştırın. Komutlar herhangi bir çıktı vermeyecek. Eğer yukarıda anlatılan talimatları iyi okuyup, eksiksiz yaptıysanız sorunsuz çalışacaktır düğüm (Node)
 
-```ruby
+```reStructuredText
 chmod +x observe.sh
 ```
 
-```ruby
+```robots.txt
 chmod +x start-rbn.sh
 ```
 
-```ruby
+```sed
 ./start-rbn.sh
 ```
 
 # Yararlı Komutlar
 
 1- Logları kontrol etmek için aşağıda ki komutu kullanın.
-```ruby
+```wisp
 tail -f $HOME/logs/rbbcLogs
 ```
 
@@ -337,7 +337,7 @@ tail -f $HOME/logs/rbbcLogs
 
 2- Düğümün (Node) senkronize olup olmadığını kontol etmek için aşağıda ki komutu kullanın. Bu komutta ```kendi bilginize``` göre değiştireceğiniz kısım domain adresini yazan yer. Yani ```https://domainadresin.com``` yazan yere kendi domain adresinizi yazın.
 
-```ruby
+```xBase
 echo $(( 16#$(curl -s https://domainadresin.com:8545 -X POST -H "Content-Type: application/json" --data '{"method":"eth_getBlockByNumber","params":["latest",false],"id":1,"jsonrpc":"2.0"}' | jq -r .result.number | sed 's/0x//') ))
 ```
 
