@@ -61,6 +61,42 @@ Tüm bu ayarlamaları yaptıktan sonra ```Save``` butonuna tıklayın ve ardınd
 
 ![6](https://github.com/Lorento34/redbelly/assets/84406096/84431f9a-8996-4a82-8b45-c196f34ee4c1)
 
+7-	Burada size Cloudflare nameservers (Ad sunucular) verecek. Bunları bir metin belgesine kaydedin. Bunlar birazdan lazım olacak! Dns yönlendirmesini yapmak için ```Godaddy``` sitesine gidin…
+
+
+![7](https://github.com/Lorento34/redbelly/assets/84406096/bdae7a85-0b75-45ae-af5d-43c289796e53)
+
+
+
+8-	Godaddy platformuna giriş yaptıktan sonra sağ üst köşede profilinize girin sonra ```My Products``` tıklayın.
+
+
+![8](https://github.com/Lorento34/redbelly/assets/84406096/0cf68c5c-b205-412d-ab0c-4e26329ad1ba)
+
+9-	Burada Dns'ye tıklayın ve bir sonra ki adımda Dns ayarlarını yapılandıracağız.
+
+
+![9](https://github.com/Lorento34/redbelly/assets/84406096/96ddd156-cefa-4fa8-9a5b-1b77f90f1660)
+
+
+
+10-	```Nameservers```tıklayın, ardından ```Change Nameservers``` tıklayın ve bir sonra ki adımda Cloudflare sitesinden kopyaladığınız nameservers kaydedeceğiz.
+
+
+![10](https://github.com/Lorento34/redbelly/assets/84406096/6df7bcf2-3f7a-432a-af90-9832f6d00edf)
+
+
+11- Burada ```I'll use my own nameservers``` seçeneğini işaretleyin. Ve aşağıda ki gibi Cloudflare’den kopyaladığınız nameservers’i değiştirin, ardından ```Save``` butonuna tıklayarak kaydedin.
+
+
+
+![11](https://github.com/Lorento34/redbelly/assets/84406096/ebe040a0-6c24-4e12-be24-71f501ac3016)
+
+12- Düğüm (Node) kurulumuna başlamadan önce domaninizin dns yönlendirilmesinin tamamlanması gerekiyor. Yoksa düğüm (Node) kurulumu sırasında domaine sertifika alma kısmında hata alacaksınız. <a href="https://dnschecker.org/">Dns Checker</a>sitesine gidip, takip edebilirsiniz. Arama kısmına domaininizin adını yazın aşağıda ki resimde ki gibi dünya haritasında hepsinin yeşil bir şekilde onaylı olması gerekiyor. Yarısı onaylı, yarısı kırmızı çarpı işareti varsa beklemeniz gerekiyor. Bu bekleme süresi 15-20 dakika olabilir. Dns yönlendirilmesi tamamlandıktan sonra düğüm (Node) kurulumuna geçebilirsiniz.
+
+![12](https://github.com/Lorento34/redbelly/assets/84406096/63175717-a9fe-49c9-ae59-aef3d090f2c6)
+
+
 
 
 <h1>Düğüm (Node) Kurulumu</h1>
