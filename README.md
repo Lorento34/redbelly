@@ -113,13 +113,13 @@ Tüm bu ayarlamaları yaptıktan sonra ```Save``` butonuna tıklayın ve ardınd
 <h1>Düğüm (Node) Kurulumu</h1>
 
 
-1-Aşağıdaki komutu kullanarak paket listenizin güncelleyin.
+1- Paket listenizin güncelleyin.
 
 ```
 sudo apt update
 ```
 
-2- Aşağıdaki komutu kullanarak certbot yardımcı programını sisteminize yükleyin.
+2- Certbot yardımcı programını sunucuya yükleyin.
 
 ```
 sudo apt install snapd
@@ -154,7 +154,7 @@ sudo certbot certonly --standalone -d $fqn. --non-interactive --agree-tos -m $em
 sudo chown -R $USER:$USER /etc/letsencrypt/
 ```
 
-5-Bağımlılıkları yükleme/yükseltme
+5- Bağımlılıkları yükleme/yükseltme
 
 ```
 sudo apt-get update
@@ -174,7 +174,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
   
 Daha sonra bu indirdiğiniz iki dosyayı winscp ya da termius gibi uygulamalar kullanarak sunucunuzun kök dizinine atın. Kök dizinden kastım sunucuya bağlandıktan sonra hiçbir klasöre ya da başka bir yere girmeden ilk giriş yaptığınız yere atacaksınız.
 
-7- Güvenlik duvarı yapılandıracağız. Aşağıdaki UFW komutlarını kullanarak ```80, 8545, 1888 ve 1111``` numaralı bağlantı noktalarına izin vermemiz gerekiyor.
+7- Güvenlik duvarı yapılandıracağız. Aşağıdaki UFW komutlarını kullanarak ```<b>80, 8545, 1888 ve 1111</b>``` numaralı bağlantı noktalarına izin vermemiz gerekiyor.
 
 ```
 sudo ufw enable
@@ -191,7 +191,7 @@ sudo ufw allow 1111
 nano config.yaml
 ```
 
-9- Aşağıda ki komutu metin belgesine kaydedin. Ardından ```__kendi bilgilerinize__``` göre değişiklikler yapacaksınız. ```__Kendi bilgilerinize__``` göre değiştireceğimiz 3 kısım var. Değiştireceğimiz kısımlar şöyle;
+9- Aşağıda ki komutu metin belgesine kaydedin. Ardından ```<b>kendi bilgilerinize</b>``` göre değişiklikler yapacaksınız. ```<b>Kendi bilgilerinize</b>``` göre değiştireceğimiz 3 kısım var. Değiştireceğimiz kısımlar şöyle;
 
 - ```Ip: domain adresiniz```
 - ```Id: size verilen Numara```
