@@ -156,7 +156,7 @@ netstat -an | grep 80
 > - Aşağıda ki komutu kesinlikle kendi bilgilerinize göre değiştirin :bangbang:
 > - Komutları kendi bilginize göre düzenledikten sonra sunucuda tek tek değil komple olarak kopyalayıp çalıştırın :bangbang:
 
-```ruby
+```E-mail
 email=xxx@mail.com
 fqn=domainadresiniz.com
 sudo certbot certonly --standalone -d $fqn. --non-interactive --agree-tos -m $email
