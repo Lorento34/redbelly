@@ -254,26 +254,38 @@ echo $(( 16#$(curl -s https://domainadresin.com:8545 -X POST -H "Content-Type: a
 
 3- Düğüme (Node) reset atmak için aşağıda ki komutları kullanın.
 
+- Rbbc'i kapatmak için aşağıda ki komutla sayısını öğreniyoruz.
+
 ```
 pgrep rbbc
 ```
+
 ![image](https://github.com/Lorento34/redbelly/assets/84406096/0059fd7c-4f0c-4b75-9905-d37c5be99055)
 
-```pgrep rbbc``` komutunu girdikten sonra size bir rakam verecek onu kullanacaksınız. Mesela ```kill 2727```
+
+- Size veren sayı ile rbbc'yi kapatıyoruz. __Örnek__ kullanım şöyle ```kill 2727``` olacak. Siz kendinize göre düzenleyeceksiniz.
 
 ```
 kill ****
 ```
 
 ![image](https://github.com/Lorento34/redbelly/assets/84406096/af6adbd2-1982-4d22-9f49-c5aa737a1885)
+
+
+- Düğümü (Node) tekrardan başlatıyoruz.
+
 ```
 ./start-rbn.sh
 ```
 ![image](https://github.com/Lorento34/redbelly/assets/84406096/d95fda32-b887-49c9-98d8-a6f0708f3ba3)
 
+- Son olarak logları kontrol edelim.
+  
+```
+tail -f $HOME/logs/rbbcLogs
+```
 
-
-
+![image](https://github.com/Lorento34/redbelly/assets/84406096/cfc002a0-52cb-4fd5-86ed-871402bc438e)
 
 
 
