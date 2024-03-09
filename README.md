@@ -172,8 +172,18 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
 
 - [Genesis.json](https://drive.google.com/file/d/1GTBBKs0IZZcDiOc_TldAwCzVu8D9wt3L/view?usp=drive_link) dosyasını indirin.
   
-  
+Daha sonra bu indirdiğiniz iki dosyayı winscp ya da termius gibi uygulamalar kullanarak sunucunuzun kök dizinine atın. Kök dizinden kastım sunucuya bağlandıktan sonra hiçbir klasöre ya da başka bir yere girmeden ilk giriş yaptığınız yere atacaksınız.
 
+7- Güvenlik duvarı yapılandıracağız. Aşağıdaki UFW komutlarını kullanarak ```80, 8545, 1888 ve 1111``` numaralı bağlantı noktalarına izin vermemiz gerekiyor.
+
+```
+sudo ufw enable
+sudo ufw allow 22
+sudo ufw allow 80
+sudo ufw allow 8545
+sudo ufw allow 1888
+sudo ufw allow 1111
+```
 
 
 
