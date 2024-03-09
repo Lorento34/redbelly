@@ -215,14 +215,14 @@ nano config.yaml
 
 Komutu düzenledikten sonra komutun hepsin sunucunuza yapıştırın. <b>```Ctrl + o```</b> , enter ve <b>```ctrl + x```</b> yaparak çıkış yapın. 
 
-```mcfunction
-ip: lorento.app
-id: 33
+```
+mcfunction ip: lorento.app
+mcfunction id: 33
 genesisContracts:
   bootstrapContractsRegistryAddress: 0xDAFEA492D9c6733ae3d56b7Ed1ADB60692c98Bc5
 consensusPort: 1888
 grpcPort: 1111
-privateKeyHex: ef71578b448ee9b9a7c112e4567d9j654e94gge164109bf820034f467h1903bjk
+mcfunction privateKeyHex: ef71578b448ee9b9a7c112e4567d9j654e94gge164109bf820034f467h1903bjk
 poolConfig:
   initCap: 5
   maxCap: 30
