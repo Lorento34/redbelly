@@ -1,5 +1,7 @@
 ![1_kNm5E2XtpiKdacDmywA8-w](https://github.com/Lorento34/redbelly/assets/84406096/fdb0c843-b7ff-44e1-86be-a1dd0d3cc03f)
 
+
+<details>
 | Redbelly Network Sosyal Medya Linkleri|
 | ---------------- |
 | [Discord](https://discord.gg/vbJ6w5E5)
@@ -8,6 +10,9 @@
 | [Medium](https://medium.com/@redbellyblockchain)
 | [Telegram](https://t.me/redbellychat)
 | [Telegram Tükçe Kanal](https://t.me/redbellyturkey)
+
+</details>
+
 
 
 <details>
