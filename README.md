@@ -185,7 +185,41 @@ sudo ufw allow 1888
 sudo ufw allow 1111
 ```
 
+8- Config dosyasını yapılandıracağız. Hata almamak için yapmanız gerekenleri dikkatli bir şekilde okuyun. Aşağıda ki komutu metin belgesine kaydedin. Kendi bilgilerinize göre değiştireceğimiz 3 kısım var. Değiştireceğimiz kısımlar şöyle;
 
+```Ip: domain adresiniz```
+```Id: size verilen Numara```
+```privateKeyHex: Metamask adresinizin private key’i```
+
+> [!CAUTION]
+> - Aşağıda ki komut rastgele bilgilerle örnek olsun diye yazılmıştır. Kesinlikle kendi bilgilerinize göre düzenleyin :bangbang:
+> - Domain adresiniz aşağıda ki gibi olacak. Yani  başında www veya http ya da sonunda nokta, / gibi semboller olmayacak :bangbang:
+> - Metamask adresinizin private keyini vereceğiniz için kesinlikle kullandığınız metamask adresinizin private keyini vermeyin. Bu işlem için yeni bir hesap açın :bangbang:
+
+```
+ip: lorento.app
+id: 33
+genesisContracts:
+  bootstrapContractsRegistryAddress: 0xDAFEA492D9c6733ae3d56b7Ed1ADB60692c98Bc5
+consensusPort: 1888
+grpcPort: 1111
+privateKeyHex: ef71578b448ee9b9a7c112e4567d9j654e94gge164109bf820034f467h1903bjk
+poolConfig:
+  initCap: 5
+  maxCap: 30
+  idleTimeout: 180
+clientKeepAliveConfig:
+  keepAliveTime: 1
+  keepAliveTimeOut: 20
+serverKeepAliveConfig:
+  serverKeepAliveTime: 70
+  serverKeepAliveTimeOut: 10
+  minTime: 60
+rpcPoolConfig:
+  maxOpenCount: 1
+  maxIdleCount: 1
+  maxIdleTime: 30
+```
 
 
 
