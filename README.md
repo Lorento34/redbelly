@@ -256,7 +256,7 @@ tail -f $HOME/logs/rbbcLogs
 ![Ekran görüntüsü 2024-03-08 233819](https://github.com/Lorento34/redbelly/assets/84406096/b4d55ac5-12bf-4180-87b1-c146a4a548d4)
 
 
-2- Düğümün (Node) senkronize olup olmadığını kontol için aşağıda ki komutu kullanın. Burada ki domain https://domainadresin.com:8545 bilgisine kendi domain adresinizi yazın.
+2- Düğümün (Node) senkronize olup olmadığını kontol etmek için aşağıda ki komutu kullanın. Bu komutta ```kendi bilginize``` göre değiştireceğiniz kısım domain adresini yazan yer. Yani ```https://domainadresin.com``` yazan yere kendi domain adresinizi yazın.
 
 ```ruby
 echo $(( 16#$(curl -s https://domainadresin.com:8545 -X POST -H "Content-Type: application/json" --data '{"method":"eth_getBlockByNumber","params":["latest",false],"id":1,"jsonrpc":"2.0"}' | jq -r .result.number | sed 's/0x//') ))
@@ -266,7 +266,7 @@ echo $(( 16#$(curl -s https://domainadresin.com:8545 -X POST -H "Content-Type: a
 
 3- Düğüme (Node) reset atmak için aşağıda ki komutları kullanın.
 
-- Rbbc'i kapatmak için aşağıda ki komutla sayısını öğreniyoruz.
+- Aşağıda ki komut Rbbc'yi kapatmak için size bir rakam verecek.
 
 ```ruby
 pgrep rbbc
@@ -275,7 +275,7 @@ pgrep rbbc
 ![image](https://github.com/Lorento34/redbelly/assets/84406096/0059fd7c-4f0c-4b75-9905-d37c5be99055)
 
 
-- Size veren sayı ile rbbc'yi kapatıyoruz. __Örnek__ kullanım şöyle ```kill 2727``` olacak. Siz kendinize göre düzenleyeceksiniz.
+- Size verilen rakam ile rbbc'yi kapatıyoruz. ```Örnek``` kullanım şöyle ```kill 2727``` olacak. Siz kendinize göre düzenleyeceksiniz.
 
 ```ruby
 kill ****
@@ -287,9 +287,16 @@ kill ****
 - Düğümü (Node) tekrardan başlatıyoruz.
 
 ```ruby
+chmod +x observe.sh
+```
+
+```ruby
+chmod +x start-rbn.sh
+```
+
+```ruby
 ./start-rbn.sh
 ```
-![image](https://github.com/Lorento34/redbelly/assets/84406096/d95fda32-b887-49c9-98d8-a6f0708f3ba3)
 
 - Son olarak logları kontrol edelim.
   
