@@ -202,6 +202,8 @@ nano config.yaml
   - ```id: Size verilen Numara```
   - ```privateKeyHex: Metamask adresinizin private keyi```
 
+Komutu düzenledikten sonra komutun hepsin sunucunuza yapıştırın. ```Ctrl + o``` , enter ve ```ctrl + x``` yaparak çıkış yapın. 
+
 ```
 ip: lorento.app
 id: 33
@@ -228,7 +230,7 @@ rpcPoolConfig:
 ```
 
 
-Komutu düzenledikten sonra komutun hepsin sunucunuza yapıştırın. ```Ctrl + o``` , enter ve ```ctrl + x``` yaparak çıkış yapın. 
+
 
 
 
