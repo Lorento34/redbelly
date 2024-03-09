@@ -63,7 +63,7 @@ Tüm bu ayarlamaları yaptıktan sonra ```Save``` butonuna tıklayın ve ardınd
 
 
 
-Düğüm (Node) Kurulumu
+<h1>Düğüm (Node) Kurulumu</h1>
 
 
 1-Aşağıdaki komutu kullanarak paket listenizin güncelleyin.
