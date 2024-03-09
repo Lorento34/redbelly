@@ -215,7 +215,7 @@ nano config.yaml
 > - Domain adresiniz aşağıda ki gibi olacak. Yani başında www, http ya da sonunda nokta, / gibi semboller olmayacak :bangbang:
 > - Metamask adresinizin private keyini vereceğiniz için kesinlikle bu işlem için yeni bir metamask hesabı açın ve onu kullanın :bangbang:
 > - Değiştireceğiniz kısımlar şöyle;
-    - ```ip: Domain adresiniz```
+    :one: - ```ip: Domain adresiniz```
     - ```id: Size verilen Numara```
     - ```privateKeyHex: Metamask adresinizin private keyi```
 
