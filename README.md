@@ -4,23 +4,17 @@
 
 <b> Redbelly Network düğümünü (Node) çalıştırmak için minimum donanım gereksinimleri </b>
 
-- Cpu : 8-core Cpu
-- Mimari: x86-64 (Bunun haricinde x64, x86_64, AMD64, ve Intel 64)
-- Ram: 16 GB
-- İşletim Sistemi: Ubuntu 22.04.2 LTS ya da üst sürümler (x86-64)
-- Depolama: 1 TB
-- Ağ Bant Genişliği: 40 Mbps
-- TCP bağlantı noktaları: 8545, 8546, 1111 ve 1888 (Önerilen)
-
-
-Arkadaşlar rehber biraz uzun olacak üstün körü anlatıp geçtiğimde biliyorum ki telegramda birçok kişi anlayamayacak ve nasıl olduğunu soracak ya da birçok kişi hata alacak. Bu karışıklığın önüne geçmek için ve aramıza yeni katılanları da düşünerek ayrıntılı ve resimli bir rehber hazırlıyorum. Rehberde ki adımları dikkatlice okuyup, takip ederseniz sorunsuz bir şekilde kurulumu tamamlayabilirsiniz. Bu arada aşağıda kullanacağımız siteleri Türkçe'ye çevirip eee burada böyle bir şey yok demeyin. İngilizce olarak kullanın böylece aşağıda ki resimlerle senkronize gidebilirsiniz. Ben bu rehbere göre yaptım ve çalışıyor. Kurulum 3 adımdan oluşacak. Domain satın alma, domain için dns yapılandırılması ve düğüm (node) kurulumu.
-
-
 Character | Quote
 ---- | ------
-Invoker | The skies set you a flame!
-Nyx | nyx nyx nyx nyx nyx ...
+Cpu | 8-core Cpu
+Mimari | x86-64 (x64, x86_64, AMD64, ve Intel 64)
+Ram | 16 GB
+İşletim Sistemi | Ubuntu 22.04.2 LTS ya da üst sürümler (x86-64)
+Depolama | 1 TB
+Ağ Bant Genişliği | 40 Mbps
+TCP bağlantı noktaları | 8545, 8546, 1111 ve 1888 (Önerilen)
 
+Arkadaşlar rehber biraz uzun olacak üstün körü anlatıp geçtiğimde biliyorum ki telegramda birçok kişi anlayamayacak ve nasıl olduğunu soracak ya da birçok kişi hata alacak. Bu karışıklığın önüne geçmek için ve aramıza yeni katılanları da düşünerek ayrıntılı ve resimli bir rehber hazırlıyorum. Rehberde ki adımları dikkatlice okuyup, takip ederseniz sorunsuz bir şekilde kurulumu tamamlayabilirsiniz. Bu arada aşağıda kullanacağımız siteleri Türkçe'ye çevirip eee burada böyle bir şey yok demeyin. İngilizce olarak kullanın böylece aşağıda ki resimlerle senkronize gidebilirsiniz. Ben bu rehbere göre yaptım ve çalışıyor. Kurulum 3 adımdan oluşacak. Domain satın alma, domain için dns yapılandırılması ve düğüm (node) kurulumu.
 
 ---
 
