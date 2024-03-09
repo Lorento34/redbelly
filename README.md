@@ -199,8 +199,8 @@ nano config.yaml
 
 > [!CAUTION]
 > - Aşağıda ki komut örnektir. Kesinlikle kendi bilgilerinize göre düzenleyin :bangbang:
-> - Domain adresiniz aşağıda ki gibi olacak. Yani başında www, http ya da sonunda nokta, / gibi semboller olmayacak:bangbang:
-> - Metamask adresinizin private keyini vereceğiniz için kesinlikle bu işlem için yeni bir metamask hesabı açın ve onu kullanın:bangbang:
+> - Domain adresiniz aşağıda ki gibi olacak. Yani başında www, http ya da sonunda nokta, / gibi semboller olmayacak :bangbang:
+> - Metamask adresinizin private keyini vereceğiniz için kesinlikle bu işlem için yeni bir metamask hesabı açın ve onu kullanın :bangbang:
 
 ```
 ip: lorento.app
