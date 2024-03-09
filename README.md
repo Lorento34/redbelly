@@ -205,7 +205,7 @@ nano config.yaml
 
 Komutu düzenledikten sonra komutun hepsin sunucunuza yapıştırın. ```Ctrl + o``` , enter ve ```ctrl + x``` yaparak çıkış yapın. 
 
-```
+```ruby
 ip: lorento.app
 id: 33
 genesisContracts:
