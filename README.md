@@ -100,6 +100,7 @@ Tüm bu ayarlamaları yaptıktan sonra ```Save``` butonuna tıklayın ve ardınd
 ![12](https://github.com/Lorento34/redbelly/assets/84406096/63175717-a9fe-49c9-ae59-aef3d090f2c6)
 
 
+---
 
 
 <h1>Düğüm (Node) Kurulumu</h1>
