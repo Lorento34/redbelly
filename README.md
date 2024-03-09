@@ -221,8 +221,10 @@ rpcPoolConfig:
   maxIdleTime: 30
 ```
 
-
-
+9- Aşağıda ki komutu sunucuya girin. Ardından kendi bilgilerinize göre değiştirdiğiniz Config dosyasını komple kopyalayın ve sunucuya yapıştırın. Ardından ```Ctrl + o``` , enter ve ```ctrl + x``` yaparak çıkış yapın.
+```
+nano config.yaml
+```
 
 
 
