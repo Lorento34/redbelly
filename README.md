@@ -168,11 +168,10 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
 
 6- Redbelly düğüm (Node) kurulumunu tamamlamadan önce belirli dosyaları sunucuya yüklemeniz gerekiyor.
 
--	Aşağıda ki linkten Rbbc dosyasını indirin.
-  [Rbbc](https://drive.google.com/file/d/1gg3uHXYV0CnZJns49N1WdRiC-4wec21P/view?usp=sharing)
+-	[Rbbc](https://drive.google.com/file/d/1gg3uHXYV0CnZJns49N1WdRiC-4wec21P/view?usp=sharing) dosyasını indirin.
 
-- Aşağıda ki linkten genesis.json dosyasını indirin.
-  [Genesis](https://drive.google.com/file/d/1GTBBKs0IZZcDiOc_TldAwCzVu8D9wt3L/view?usp=drive_link)
+- [Genesis.json](https://drive.google.com/file/d/1GTBBKs0IZZcDiOc_TldAwCzVu8D9wt3L/view?usp=drive_link) dosyasını indirin.
+  
   
 
 
