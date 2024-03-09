@@ -13,7 +13,7 @@
 # tree-sitter-ruby
 
 [![CI][ci]](https://github.com/tree-sitter/tree-sitter-ruby/actions/workflows/ci.yml)
-[![discord][discord]](https://discord.gg/w7nTvsVJhm)
+[![discord][discord]](https://discord.gg/vbJ6w5E5m)
 [![matrix][matrix]](https://matrix.to/#/#tree-sitter-chat:matrix.org)
 [![crates][crates]](https://crates.io/crates/tree-sitter-ruby)
 [![npm][npm]](https://www.npmjs.com/package/tree-sitter-ruby)
