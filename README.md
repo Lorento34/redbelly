@@ -206,15 +206,15 @@ sudo ufw allow 1111
 nano config.yaml
 ```
 
-9- Aşağıda ki komutu metin belgesine kaydedin. Ardından <b>```ruby kendi bilgilerinize```</b> göre değişiklikler yapacaksınız.
+9- Aşağıda ki komutu metin belgesine kaydedin. Ardından <b>```kendi bilgilerinize```</b> göre değişiklikler yapacaksınız.
 
 > [!CAUTION]
 > - Aşağıda ki komut örnektir. Kesinlikle kendi bilgilerinize göre düzenleyin :bangbang:
 > - Domain adresiniz aşağıda ki gibi olacak. Yani başında www, http ya da sonunda nokta, / gibi semboller olmayacak :bangbang:
 > - Metamask adresinizin private keyini vereceğiniz için kesinlikle bu işlem için yeni bir metamask hesabı açın ve onu kullanın :bangbang:
-> - Değiştireceğiniz kısımlar şöyle;```ip: Domain adresiniz```, ```id: Size verilen Numara```, ```privateKeyHex: Metamask adresinizin private keyi```
+> - Değiştireceğiniz kısımlar şöyle;<b>```ip: Domain adresiniz```, ```id: Size verilen Numara```, ```privateKeyHex: Metamask adresinizin private keyi```</b>
 
-Komutu düzenledikten sonra komutun hepsin sunucunuza yapıştırın. ```Ctrl + o``` , enter ve ```ctrl + x``` yaparak çıkış yapın. 
+Komutu düzenledikten sonra komutun hepsin sunucunuza yapıştırın. <b>```Ctrl + o```</b> , enter ve <b>```ctrl + x```</b> yaparak çıkış yapın. 
 
 ```ruby
 ip: lorento.app
