@@ -194,7 +194,7 @@ Daha sonra bu indirdiğiniz iki dosyayı winscp ya da termius gibi uygulamalar k
 
 7- Güvenlik duvarı yapılandıracağız. Aşağıdaki UFW komutlarını kullanarak ```<b>80, 8545, 1888 ve 1111</b>``` numaralı bağlantı noktalarına izin vermemiz gerekiyor.
 
-```ruby
+```shell
 sudo ufw enable
 sudo ufw allow 22
 sudo ufw allow 80
@@ -219,7 +219,7 @@ nano config.yaml
 
 Komutu düzenledikten sonra komutun hepsin sunucunuza yapıştırın. ```Ctrl + o``` , enter ve ```ctrl + x``` yaparak çıkış yapın. 
 
-```YAML
+```shell
 ip: lorento.app
 id: 33
 genesisContracts:
