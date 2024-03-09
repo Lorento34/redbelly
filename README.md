@@ -248,7 +248,13 @@ rpcPoolConfig:
 nano observe.sh
 ```
 
-11- 
+11- Hata almamak için dikkatli okumanızı rica ediyorum. Aşağıda ki komutu metin belgesine kaydedin kendi bilgilerinize göre değiştireceğimiz 2 kısım var. 
+Değiştireceğimiz kısımlar şöyle; ```<PATH TO SSL CERTIFICATE>``` ve ```<PATH TO SSL CERTIFICATE KEY>```
+
+tls.cert=```/etc/letsencrypt/live/lorento.shop/fullchain.pem``` --tls.key=```/etc/letsencrypt/live/lorento.shop/privkey.pem``` --http --http.addr=0.0.0.0
+
+Burada SSL sertifikasının ve özel anahtarın yolunu değiştiriyoruz. Boşluklara dikkat edin, fazladan bir şey silmeyin.
+
 
 
 
