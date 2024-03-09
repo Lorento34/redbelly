@@ -1,6 +1,6 @@
 ![1_kNm5E2XtpiKdacDmywA8-w](https://github.com/Lorento34/redbelly/assets/84406096/fdb0c843-b7ff-44e1-86be-a1dd0d3cc03f)
 
-
+| Donanım | Gereksinim |
 | ------------- | ---------------- |
 Cpu | 8-core Cpu
 Mimari | x86-64 (x64, x86_64, AMD64, ve Intel 64)
