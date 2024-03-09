@@ -3,7 +3,8 @@
 
 <details>
 <summary>Redbelly Network Sosyal Medya Linkleri</summary>
-  
+
+|                  |
 | ---------------- |
 | [Discord](https://discord.gg/vbJ6w5E5)
 | [Twitter](https://twitter.com/RedbellyNetwork)
