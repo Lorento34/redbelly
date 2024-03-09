@@ -191,7 +191,7 @@ sudo ufw allow 1111
 nano config.yaml
 ```
 
-9- Aşağıda ki komutu metin belgesine kaydedin. Ardından ```<b>kendi bilgilerinize</b>``` göre değişiklikler yapacaksınız. ```<b>Kendi bilgilerinize</b>``` göre değiştireceğimiz 3 kısım var. Değiştireceğimiz kısımlar şöyle;
+9- Aşağıda ki komutu metin belgesine kaydedin. Ardından <b>```kendi bilgilerinize```</b> göre değişiklikler yapacaksınız. ```<b>Kendi bilgilerinize</b>``` göre değiştireceğimiz 3 kısım var. Değiştireceğimiz kısımlar şöyle;
 
 - ```Ip: domain adresiniz```
 - ```Id: size verilen Numara```
