@@ -234,9 +234,22 @@ rpcPoolConfig:
 
 
 
+# Yararlı Komutlar
+
+1- Logları kontrol etmek için aşağıda ki komutu kullanın.
+```
+tail -f $HOME/logs/rbbcLogs
+```
+
+![Ekran görüntüsü 2024-03-08 233819](https://github.com/Lorento34/redbelly/assets/84406096/b4d55ac5-12bf-4180-87b1-c146a4a548d4)
 
 
+2- Düğümün (Node) senkronize olup olmadığını kontol için aşağıda ki komutu kullanın. Burada ki domain https://domainadresin.com:8545 bilgisine kendi domain adresinizi yazın.
 
+```
+echo $(( 16#$(curl -s https://domainadresin.com:8545 -X POST -H "Content-Type: application/json" --data '{"method":"eth_getBlockByNumber","params":["latest",false],"id":1,"jsonrpc":"2.0"}' | jq -r .result.number | sed 's/0x//') ))
+```
 
+![Ekran görüntüsü 2024-03-08 233709](https://github.com/Lorento34/redbelly/assets/84406096/da591976-3334-497c-88cb-aaee10914cc9)
 
 
