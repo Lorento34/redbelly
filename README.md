@@ -185,7 +185,13 @@ sudo ufw allow 1888
 sudo ufw allow 1111
 ```
 
-8- Config dosyasını yapılandıracağız. Hata almamak için yapmanız gerekenleri dikkatli bir şekilde okuyun. Aşağıda ki komutu metin belgesine kaydedin. Kendi bilgilerinize göre değiştireceğimiz 3 kısım var. Değiştireceğimiz kısımlar şöyle;
+8- Config dosyasını yapılandıracağız.
+
+```
+nano config.yaml
+```
+
+9- Aşağıda ki komutu metin belgesine kaydedin. Ardından ```__kendi bilgilerinize__``` göre değişiklikler yapacaksınız. ```__Kendi bilgilerinize__``` göre değiştireceğimiz 3 kısım var. Değiştireceğimiz kısımlar şöyle;
 
 - ```Ip: domain adresiniz```
 - ```Id: size verilen Numara```
@@ -195,6 +201,9 @@ sudo ufw allow 1111
 > - Aşağıda ki komut örnektir. Kesinlikle kendi bilgilerinize göre düzenleyin :bangbang:
 > - Domain adresiniz aşağıda ki gibi olacak. Yani başında www veya http ya da sonunda nokta, / gibi semboller olmayacak :bangbang:
 > - Metamask adresinizin private keyini vereceğiniz için kesinlikle kullandığınız metamask adresinizin private keyini vermeyin. Bu işlem için yeni bir hesap açın :bangbang:
+
+
+Ardından ```Ctrl + o``` , enter ve ```ctrl + x``` yaparak çıkış yapın. 
 
 ```
 ip: lorento.app
@@ -221,10 +230,7 @@ rpcPoolConfig:
   maxIdleTime: 30
 ```
 
-9- Aşağıda ki komutu sunucuya girin. Ardından kendi bilgilerinize göre değiştirdiğiniz Config dosyasını komple kopyalayın ve sunucuya yapıştırın. Ardından ```Ctrl + o``` , enter ve ```ctrl + x``` yaparak çıkış yapın.
-```
-nano config.yaml
-```
+
 
 
 
