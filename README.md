@@ -2,7 +2,7 @@
 
 | Redbelly Network |
 | ---------------- |
-| [Discord]](https://discord.gg/w7nTvsVJhm)
+| [Discord](https://discord.gg/w7nTvsVJhm)
 | x86-64 (x64, x86_64, AMD64, ve Intel 64)
 | 16 GB
 
