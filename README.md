@@ -143,9 +143,9 @@ netstat -an | grep 80
 
 4- Aşağıda ki komutu bir metin belgesine kaydedin. Ardından ```xxx@mail.com``` ve ```domainadresiniz.com```’u kendi bilgilerinize göre değiştirin. Aşağıda ki bilgilere göre çalıştırmayın bu komutu kesinlikle! Bu komutu girdikten sonra domaininize sertifika almış olacaksınız.
 
-> [!CAUTION]
-> Aşağıda ki komutu kesinlikle kendi bilgilerinize göre değiştirin:bangbang:
-> Komutları sunucuda tek tek değil komple olarak kopyalayıp çalıştıracaksınız:bangbang:
+> [!DİKKAT]
+> - Aşağıda ki komutu kesinlikle kendi bilgilerinize göre değiştirin:bangbang:
+> - Komutları sunucuda tek tek değil komple olarak kopyalayıp çalıştıracaksınız:bangbang:
 
 ```
 email=xxx@mail.com
