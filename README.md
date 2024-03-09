@@ -10,6 +10,7 @@
 | [Telegram Tükçe Kanal](https://t.me/redbellyturkey)
 
 
+![https://discord.gg/vbJ6w5E5](https://github.com/Lorento34/redbelly/assets/84406096/0772072a-1cdf-4925-9e89-f502e0ba0276)
 
 
 ------
