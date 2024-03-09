@@ -42,7 +42,7 @@ Bunun için ben <a href="https://www.godaddy.com/en-ie">Godaddy</a> platformunu 
 
 
 
-![4](https://github.com/Lorento34/redbelly/assets/84406096/49b525d3-9558-4ba7-b6fa-c706290c3b26)
+<div align="center"> ![4](https://github.com/Lorento34/redbelly/assets/84406096/49b525d3-9558-4ba7-b6fa-c706290c3b26) </div>
 
 
 5- Bir sonra ki ekranda hazır ayarlar gelirse -ki bazen gelmiyor- hepsini ```Delete``` tıklayarak siliyoruz. Hepsini sildikten sonra ```Add record``` yazan yere tıklıyoruz…
