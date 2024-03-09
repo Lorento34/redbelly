@@ -11,22 +11,10 @@
 | [Websitesi](https://www.redbelly.network/)
 | [Medium](https://medium.com/@redbellyblockchain)
 | [Telegram](https://t.me/redbellychat)
-| [Telegram Tükçe Kanal](https://t.me/redbellyturkey)
+| [Telegram Türkçe Kanal](https://t.me/redbellyturkey)
 
 </details>
 
-
-
-<details>
-<summary>My top languages</summary>
-
-| Rank | Languages |
-|-----:|-----------|
-|     1| JavaScript|
-|     2| Python    |
-|     3| SQL       |
-
-</details>
 
 
 ------
