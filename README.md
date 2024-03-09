@@ -192,8 +192,8 @@ sudo ufw allow 1111
 - ```privateKeyHex: Metamask adresinizin private key’i```
 
 > [!CAUTION]
-> - Aşağıda ki komut rastgele bilgilerle örnek olsun diye yazılmıştır. Kesinlikle kendi bilgilerinize göre düzenleyin :bangbang:
-> - Domain adresiniz aşağıda ki gibi olacak. Yani  başında www veya http ya da sonunda nokta, / gibi semboller olmayacak :bangbang:
+> - Aşağıda ki komut örnektir. Kesinlikle kendi bilgilerinize göre düzenleyin :bangbang:
+> - Domain adresiniz aşağıda ki gibi olacak. Yani başında www veya http ya da sonunda nokta, / gibi semboller olmayacak :bangbang:
 > - Metamask adresinizin private keyini vereceğiniz için kesinlikle kullandığınız metamask adresinizin private keyini vermeyin. Bu işlem için yeni bir hesap açın :bangbang:
 
 ```
