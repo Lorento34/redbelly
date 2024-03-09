@@ -252,4 +252,30 @@ echo $(( 16#$(curl -s https://domainadresin.com:8545 -X POST -H "Content-Type: a
 
 ![Ekran görüntüsü 2024-03-08 233709](https://github.com/Lorento34/redbelly/assets/84406096/da591976-3334-497c-88cb-aaee10914cc9)
 
+3- Düğüme (Node) reset atmak için aşağıda ki komutları kullanın.
+
+```
+pgrep rbbc
+```
+![image](https://github.com/Lorento34/redbelly/assets/84406096/0059fd7c-4f0c-4b75-9905-d37c5be99055)
+
+```pgrep rbbc``` komutunu girdikten sonra size bir rakam verecek onu kullanacaksınız. Mesela ```kill 2727```
+
+```
+kill ****
+```
+
+![image](https://github.com/Lorento34/redbelly/assets/84406096/af6adbd2-1982-4d22-9f49-c5aa737a1885)
+```
+./start-rbn.sh
+```
+![image](https://github.com/Lorento34/redbelly/assets/84406096/d95fda32-b887-49c9-98d8-a6f0708f3ba3)
+
+
+
+
+
+
+
+
 
