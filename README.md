@@ -191,7 +191,7 @@ Daha sonra bu indirdiğiniz iki dosyayı winscp ya da termius gibi uygulamalar k
 
 7- Güvenlik duvarı yapılandıracağız. Aşağıdaki UFW komutlarını kullanarak ```<b>80, 8545, 1888 ve 1111</b>``` numaralı bağlantı noktalarına izin vermemiz gerekiyor.
 
-```shell
+```ruby
 sudo ufw enable
 sudo ufw allow 22
 sudo ufw allow 80
@@ -202,11 +202,11 @@ sudo ufw allow 1111
 
 8- Config dosyasını yapılandıracağız.
 
-```YAML
+```ruby
 nano config.yaml
 ```
 
-9- Aşağıda ki komutu metin belgesine kaydedin. Ardından <b>```kendi bilgilerinize```</b> göre değişiklikler yapacaksınız.
+9- Aşağıda ki komutu metin belgesine kaydedin. Ardından <b>```ruby kendi bilgilerinize```</b> göre değişiklikler yapacaksınız.
 
 > [!CAUTION]
 > - Aşağıda ki komut örnektir. Kesinlikle kendi bilgilerinize göre düzenleyin :bangbang:
@@ -216,7 +216,7 @@ nano config.yaml
 
 Komutu düzenledikten sonra komutun hepsin sunucunuza yapıştırın. ```Ctrl + o``` , enter ve ```ctrl + x``` yaparak çıkış yapın. 
 
-```shell
+```ruby
 ip: lorento.app
 id: 33
 genesisContracts:
