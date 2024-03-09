@@ -2,7 +2,7 @@
 
 # Donanım Gereksinimleri
 
-Redbelly Network düğümünü (Node) çalıştırmak için minimum donanım gereksinimleri
+<b> Redbelly Network düğümünü (Node) çalıştırmak için minimum donanım gereksinimleri </b>
 
 - Cpu : 8-core Cpu
 - Mimari: x86-64 (Bunun haricinde x64, x86_64, AMD64, ve Intel 64)
