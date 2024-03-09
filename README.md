@@ -18,9 +18,7 @@ TCP bağlantı noktaları | 8545, 8546, 1111 ve 1888 (Önerilen)
 
 Arkadaşlar rehber biraz uzun olacak üstün körü anlatıp geçtiğimde biliyorum ki telegramda birçok kişi anlayamayacak ve nasıl olduğunu soracak ya da birçok kişi hata alacak. Bu karışıklığın önüne geçmek için ve aramıza yeni katılanları da düşünerek ayrıntılı ve resimli bir rehber hazırlıyorum. Rehberde ki adımları dikkatlice okuyup, takip ederseniz sorunsuz bir şekilde kurulumu tamamlayabilirsiniz. Bu arada aşağıda kullanacağımız siteleri Türkçe'ye çevirip eee burada böyle bir şey yok demeyin. İngilizce olarak kullanın böylece aşağıda ki resimlerle senkronize gidebilirsiniz. Ben bu rehbere göre yaptım ve çalışıyor. Kurulum 3 adımdan oluşacak. Domain satın alma, domain için dns yapılandırılması ve düğüm (node) kurulumu.
 
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+
 
 
 ---
@@ -145,8 +143,9 @@ netstat -an | grep 80
 
 4- Aşağıda ki komutu bir metin belgesine kaydedin. Ardından ```xxx@mail.com``` ve ```domainadresiniz.com```’u kendi bilgilerinize göre değiştirin. Aşağıda ki bilgilere göre çalıştırmayın bu komutu kesinlikle! Bu komutu girdikten sonra domaininize sertifika almış olacaksınız.
 
-* Önemli Not:   Aşağıda ki komutu kesinlikle kendi bilgilerinize göre değiştirin!!!
-* Önemli Not 2: Komutları sunucuda tek tek değil komple olarak kopyalayıp çalıştıracaksınız!
+- [x] Önemli Not:   Aşağıda ki komutu kesinlikle kendi bilgilerinize göre değiştirin!!!
+- [x] Önemli Not 2: Komutları sunucuda tek tek değil komple olarak kopyalayıp çalıştıracaksınız!
+
 
 ```
 email=xxx@mail.com
