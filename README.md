@@ -116,29 +116,29 @@ Tüm bu ayarlamaları yaptıktan sonra ```Save``` butonuna tıklayın ve ardınd
 
 1- Paket listenizin güncelleyin.
 
-```
+```ruby
 sudo apt update
 ```
 
 2- Certbot yardımcı programını sunucuya yükleyin.
 
-```
+```ruby
 sudo apt install snapd
 ```
-```
+```ruby
 sudo snap install --classic certbot
 ```
-```
+```ruby
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
 
 3- DNS/FQDN'nizi doğrulamak ve sertifikayı vermek için certbot tarafından kullanılacak olan 80 numaralı bağlantı noktasında hiçbir işlemin çalışmadığından emin olun.
 
-```
+```ruby
 apt install net-tools
 ```
 
-```
+```ruby
 netstat -an | grep 80
 ```
 
@@ -148,7 +148,7 @@ netstat -an | grep 80
 > - Aşağıda ki komutu kesinlikle kendi bilgilerinize göre değiştirin :bangbang:
 > - Komutları sunucuda tek tek değil komple olarak kopyalayıp çalıştıracaksınız :bangbang:
 
-```
+```ruby
 email=xxx@mail.com
 fqn=domainadresiniz.com
 sudo certbot certonly --standalone -d $fqn. --non-interactive --agree-tos -m $email
@@ -157,13 +157,13 @@ sudo chown -R $USER:$USER /etc/letsencrypt/
 
 5- Bağımlılıkları yükleme/yükseltme
 
-```
+```ruby
 sudo apt-get update
 ```
-```
+```ruby
 sudo apt-get install -y cron curl unzip
 ```
-```
+```ruby
 sudo DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
 ```
 
@@ -177,7 +177,7 @@ Daha sonra bu indirdiğiniz iki dosyayı winscp ya da termius gibi uygulamalar k
 
 7- Güvenlik duvarı yapılandıracağız. Aşağıdaki UFW komutlarını kullanarak ```<b>80, 8545, 1888 ve 1111</b>``` numaralı bağlantı noktalarına izin vermemiz gerekiyor.
 
-```
+```ruby
 sudo ufw enable
 sudo ufw allow 22
 sudo ufw allow 80
@@ -188,7 +188,7 @@ sudo ufw allow 1111
 
 8- Config dosyasını yapılandıracağız.
 
-```
+```ruby
 nano config.yaml
 ```
 
@@ -238,7 +238,7 @@ rpcPoolConfig:
 # Yararlı Komutlar
 
 1- Logları kontrol etmek için aşağıda ki komutu kullanın.
-```
+```ruby
 tail -f $HOME/logs/rbbcLogs
 ```
 
@@ -247,7 +247,7 @@ tail -f $HOME/logs/rbbcLogs
 
 2- Düğümün (Node) senkronize olup olmadığını kontol için aşağıda ki komutu kullanın. Burada ki domain https://domainadresin.com:8545 bilgisine kendi domain adresinizi yazın.
 
-```
+```ruby
 echo $(( 16#$(curl -s https://domainadresin.com:8545 -X POST -H "Content-Type: application/json" --data '{"method":"eth_getBlockByNumber","params":["latest",false],"id":1,"jsonrpc":"2.0"}' | jq -r .result.number | sed 's/0x//') ))
 ```
 
@@ -257,7 +257,7 @@ echo $(( 16#$(curl -s https://domainadresin.com:8545 -X POST -H "Content-Type: a
 
 - Rbbc'i kapatmak için aşağıda ki komutla sayısını öğreniyoruz.
 
-```
+```ruby
 pgrep rbbc
 ```
 
@@ -266,7 +266,7 @@ pgrep rbbc
 
 - Size veren sayı ile rbbc'yi kapatıyoruz. __Örnek__ kullanım şöyle ```kill 2727``` olacak. Siz kendinize göre düzenleyeceksiniz.
 
-```
+```ruby
 kill ****
 ```
 
@@ -275,14 +275,14 @@ kill ****
 
 - Düğümü (Node) tekrardan başlatıyoruz.
 
-```
+```ruby
 ./start-rbn.sh
 ```
 ![image](https://github.com/Lorento34/redbelly/assets/84406096/d95fda32-b887-49c9-98d8-a6f0708f3ba3)
 
 - Son olarak logları kontrol edelim.
   
-```
+```ruby
 tail -f $HOME/logs/rbbcLogs
 ```
 
