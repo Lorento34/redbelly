@@ -10,7 +10,7 @@ Depolama | 1 TB
 Ağ Bant Genişliği | 40 Mbps
 TCP bağlantı noktaları | 8545, 8546, 1111 ve 1888 (Önerilen)
 
-
+------
 
 # Donanım Gereksinimleri
 
