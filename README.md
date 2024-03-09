@@ -293,19 +293,38 @@ rm -f log
 
 
 
+12- Start-rbn.sh dosyasını yapılandıracağız.
 
+```ruby
+nano start-rbn.sh
+```
 
+13- Aşağıda ki komutta bir değişiklik yapmadan direkt sunucuda çalıştırın.
 
+```ruby
+#!/bin/sh
+# filename: start-rbn.sh
+mkdir -p binaries
+mkdir -p consensus
+chmod +x rbbc
+cp rbbc binaries/rbbc
+mkdir -p logs
+nohup ./observe.sh > ./logs/rbbcLogs 2>&1 &
+```
 
+14- Kurlumun bu kadar. Şimdi sadece düğümü (Node) çalıştırmaya geldi sıra. Aşğıda ki komutları sırasıyla sunucuda çalıştırın. Komutlar herhangi bir çıktı vermeyecek. Eğer yukarıda anlatılan talimatları iyi okuyup, eksiksiz yaptıysanız sorunsuz çalışacaktır düğüm (Node)
 
+```ruby
+chmod +x observe.sh
+```
 
+```ruby
+chmod +x start-rbn.sh
+```
 
-
-
-
-
-
-
+```ruby
+./start-rbn.sh
+```
 
 # Yararlı Komutlar
 
