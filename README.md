@@ -128,7 +128,7 @@ Tüm bu ayarlamaları yaptıktan sonra ```Save``` butonuna tıklayın ve ardınd
 <h1>Düğüm (Node) Kurulumu</h1>
 
 
-1- Paket listenizin güncelleyin.
+1- Paket listenizini güncelleyin.
 
 ```ruby
 sudo apt update
@@ -156,11 +156,11 @@ apt install net-tools
 netstat -an | grep 80
 ```
 
-4- Aşağıda ki komutu bir metin belgesine kaydedin. Ardından ```xxx@mail.com``` ve ```domainadresiniz.com```’u kendi bilgilerinize göre değiştirin. Aşağıda ki bilgilere göre çalıştırmayın bu komutu kesinlikle! Bu komutu girdikten sonra domaininize sertifika almış olacaksınız.
+4- Aşağıda ki komutu bir metin belgesine kaydedin. Ardından ```xxx@mail.com``` ve ```domainadresiniz.com```’u kendi bilgilerinize göre değiştirin. Bu komutu girdikten sonra domaininize sertifika almış olacaksınız.
 
 > [!CAUTION]
 > - Aşağıda ki komutu kesinlikle kendi bilgilerinize göre değiştirin :bangbang:
-> - Komutları sunucuda tek tek değil komple olarak kopyalayıp çalıştıracaksınız :bangbang:
+> - Komutları kendi bilginize göre düzenledikten sonra sunucuda tek tek değil komple olarak kopyalayıp çalıştırın :bangbang:
 
 ```ruby
 email=xxx@mail.com
@@ -187,7 +187,12 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
 
 - [Genesis.json](https://drive.google.com/file/d/1GTBBKs0IZZcDiOc_TldAwCzVu8D9wt3L/view?usp=drive_link) dosyasını indirin.
   
-Daha sonra bu indirdiğiniz iki dosyayı winscp ya da termius gibi uygulamalar kullanarak sunucunuzun kök dizinine atın. Kök dizinden kastım sunucuya bağlandıktan sonra hiçbir klasöre ya da başka bir yere girmeden ilk giriş yaptığınız yere atacaksınız.
+Daha sonra bu indirdiğiniz iki dosyayı ```winscp``` ya da ```termius``` gibi uygulamalar kullanarak sunucunuzun ```/root``` dizinine atın. Yani bilmeyen arkadaşlar için şöyle anlatayım, ```winscp``` ya da ```termius``` ile sunucuya bağlandıktan sonra hiçbir klasöre ya da başka bir yere girmeden ilk giriş yaptığınız yere atacaksınız dosyaları.
+
+
+![image](https://github.com/Lorento34/redbelly/assets/84406096/a7166572-dffc-4d92-a514-be4ce81f6359)
+
+
 
 7- Güvenlik duvarı yapılandıracağız. Aşağıdaki UFW komutlarını kullanarak ```<b>80, 8545, 1888 ve 1111</b>``` numaralı bağlantı noktalarına izin vermemiz gerekiyor.
 
