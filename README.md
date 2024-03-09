@@ -242,6 +242,58 @@ rpcPoolConfig:
 ```
 
 
+10- observe.sh dosyasını yapılandıracağız.
+
+```ruby
+nano observe.sh
+```
+
+11- 
+
+
+
+```ruby
+#!/bin/sh
+# filename: observe.sh
+if [ ! -d rbn ]; then
+  echo "rbn doesnt exist. Initialising redbelly"
+  mkdir -p rbn
+  mkdir -p consensus
+  cp config.yaml ./consensus
+
+  ./binaries/rbbc init --datadir=rbn --standalone
+  rm -rf ./rbn/database/chaindata
+  rm -rf ./rbn/database/nodes
+  mkdir -p ./rbn/genesis
+  cp genesis.json ./rbn/genesis
+else
+  echo "rbn already exists. continuing with existing setup"
+  cp config.yaml ./consensus
+fi
+
+
+# Run EVM
+rm -f log
+./binaries/rbbc run --datadir=rbn --consensus.dir=consensus --tls --consensus.tls --tls.cert=<PATH TO SSL CERTIFICATE> --tls.key=<PATH TO SSL CERTIFICATE KEY> --http --http.addr=0.0.0.0 --http.corsdomain=* --http.vhosts=* --http.port=8545 --http.api eth,net,web3,rbn --ws --ws.addr=0.0.0.0 --ws.port=8546 --ws.origins="*" --ws.api eth,net,web3,rbn --threshold=200 --timeout=500 --logging.level info --mode production --consensus.type dbft --config.file config.yaml --bootstrap.tries=10 --bootstrap.wait=10 --recovery.tries=10 --recovery.wait=10
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
