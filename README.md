@@ -15,6 +15,13 @@
 
 Arkadaşlar rehber biraz uzun olacak üstün körü anlatıp geçtiğimde biliyorum ki telegramda birçok kişi anlayamayacak ve nasıl olduğunu soracak ya da birçok kişi hata alacak. Bu karışıklığın önüne geçmek için ve aramıza yeni katılanları da düşünerek ayrıntılı ve resimli bir rehber hazırlıyorum. Rehberde ki adımları dikkatlice okuyup, takip ederseniz sorunsuz bir şekilde kurulumu tamamlayabilirsiniz. Bu arada aşağıda kullanacağımız siteleri Türkçe'ye çevirip eee burada böyle bir şey yok demeyin. İngilizce olarak kullanın böylece aşağıda ki resimlerle senkronize gidebilirsiniz. Ben bu rehbere göre yaptım ve çalışıyor. Kurulum 3 adımdan oluşacak. Domain satın alma, domain için dns yapılandırılması ve düğüm (node) kurulumu.
 
+
+Character | Quote
+---- | ------
+Invoker | The skies set you a flame!
+Nyx | nyx nyx nyx nyx nyx ...
+
+
 ---
 
 # Domain Satın Alma
