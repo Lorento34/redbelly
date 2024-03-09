@@ -280,6 +280,9 @@ rm -f log
 
 
 
+Örnek olarak şöyle olması gerekiyor;
+
+![image](https://github.com/Lorento34/redbelly/assets/84406096/ac566dfc-8efc-4118-ae1a-85a34185e52b)
 
 
 
