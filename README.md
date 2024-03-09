@@ -43,7 +43,7 @@ Bunun için ben <a href="https://www.godaddy.com/en-ie">Godaddy</a> platformunu 
 
 
 <p align="center">
-  <img width="250" height="250" src="https://i.imgur.com/VAXfZMW.png">
+  <img width="588" height="683" src="https://i.imgur.com/VAXfZMW.png">
 </p>
 
 
