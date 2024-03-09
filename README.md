@@ -215,7 +215,7 @@ nano config.yaml
 
 Komutu düzenledikten sonra komutun hepsin sunucunuza yapıştırın. <b>```Ctrl + o```</b> , enter ve <b>```ctrl + x```</b> yaparak çıkış yapın. 
 
-```Go
+```Fennel
 ip: lorento.app
 id: 33
 genesisContracts:
@@ -257,7 +257,7 @@ Burada SSL sertifikasının ve özel anahtarın yolunu değiştiriyoruz. Boşluk
 
 
 
-```Futhark
+```Erlang
 #!/bin/sh
 # filename: observe.sh
 if [ ! -d rbn ]; then
