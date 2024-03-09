@@ -7,7 +7,7 @@
 
 
 | Donanım | Gereksinim |
-
+| ------------- | ---------------- |
 Cpu | 8-core Cpu
 Mimari | x86-64 (x64, x86_64, AMD64, ve Intel 64)
 Ram | 16 GB
