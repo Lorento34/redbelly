@@ -265,8 +265,7 @@ nano observe.sh
 ```
 
 11- Hata almamak için dikkatli okumanızı rica ediyorum. Aşağıda ki komutu metin belgesine kaydedin. Kendi bilgilerinize göre değiştireceğiniz 2 kısım var. 
-Bunlar; ```<PATH TO SSL CERTIFICATE>``` ve ```<PATH TO SSL CERTIFICATE KEY>```
-Aşağıda ki komutta ```<PATH TO SSL CERTIFICATE>``` ve ```<PATH TO SSL CERTIFICATE KEY>``` bulacaksınız ve 4. adımda size kaydetmenizi söylediğim sertifika ve key çıktılarıyla değiştireceksiniz.
+Bunlar; ```<PATH TO SSL CERTIFICATE>``` ve ```<PATH TO SSL CERTIFICATE KEY>``` 4. adımda size kaydetmenizi söylediğim sertifika ve key çıktılarıyla değiştireceksiniz.
 
 Size örnek olması açısından aşağıda ki ekran görüntüsünde olduğu gibi kendi bilgilerinize göre düzenleyeceksiniz. Ayrıca boşluklara dikkat edin, fazladan bir şey silmeyin.
 
