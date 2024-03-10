@@ -233,13 +233,13 @@ nano config.yaml
 Komutu düzenledikten sonra komutun hepsini bir bütün halinde sunucunuza yapıştırın.```ctrl + o``` , ardından ```enter``` çıkış yapmak için ```ctrl + x```
 
 ```Processing
-ip: lorento.app
+ip: sakultaroll.app
 id: 33
 genesisContracts:
   bootstrapContractsRegistryAddress: 0xDAFEA492D9c6733ae3d56b7Ed1ADB60692c98Bc5
 consensusPort: 1888
 grpcPort: 1111
-privateKeyHex: ef71578b448ee9b9a7c112e4567d9j654e94gge164109bf820034f467h1903bjk
+privateKeyHex: ef71578b448ee9b9a7c112e4567d9j654e94gge164109bf820034f467h1903Bjk
 poolConfig:
   initCap: 5
   maxCap: 30
@@ -264,14 +264,13 @@ rpcPoolConfig:
 nano observe.sh
 ```
 
-11- Hata almamak için dikkatli okumanızı rica ediyorum. Aşağıda ki komutu metin belgesine kaydedin kendi bilgilerinize göre değiştireceğimiz 2 kısım var. 
-Değiştireceğimiz kısımlar şöyle; ```<PATH TO SSL CERTIFICATE>``` ve ```<PATH TO SSL CERTIFICATE KEY>```
+11- Hata almamak için dikkatli okumanızı rica ediyorum. Aşağıda ki komutu metin belgesine kaydedin. Kendi bilgilerinize göre değiştireceğiniz 2 kısım var. 
+Bunlar; ```<PATH TO SSL CERTIFICATE>``` ve ```<PATH TO SSL CERTIFICATE KEY>```
+Aşağıda ki komutta ```<PATH TO SSL CERTIFICATE>``` ve ```<PATH TO SSL CERTIFICATE KEY>``` bulacaksınız ve 4. adımda size kaydetmenizi söylediğim sertifika ve key çıktılarıyla değiştireceksiniz.
 
-tls.cert=```/etc/letsencrypt/live/lorento.shop/fullchain.pem``` --tls.key=```/etc/letsencrypt/live/lorento.shop/privkey.pem``` --http --http.addr=0.0.0.0
+Size örnek olması açısından aşağıda ki ekran görüntüsünde olduğu gibi kendi bilgilerinize göre düzenleyeceksiniz. Ayrıca boşluklara dikkat edin, fazladan bir şey silmeyin.
 
-Burada SSL sertifikasının ve özel anahtarın yolunu değiştiriyoruz. Boşluklara dikkat edin, fazladan bir şey silmeyin.
-
-
+![image](https://github.com/Lorento34/redbelly/assets/84406096/0058f98a-f0aa-4fd6-a20d-493717cfd8c3)
 
 
 ```Mask
@@ -298,15 +297,6 @@ fi
 rm -f log
 ./binaries/rbbc run --datadir=rbn --consensus.dir=consensus --tls --consensus.tls --tls.cert=<PATH TO SSL CERTIFICATE> --tls.key=<PATH TO SSL CERTIFICATE KEY> --http --http.addr=0.0.0.0 --http.corsdomain=* --http.vhosts=* --http.port=8545 --http.api eth,net,web3,rbn --ws --ws.addr=0.0.0.0 --ws.port=8546 --ws.origins="*" --ws.api eth,net,web3,rbn --threshold=200 --timeout=500 --logging.level info --mode production --consensus.type dbft --config.file config.yaml --bootstrap.tries=10 --bootstrap.wait=10 --recovery.tries=10 --recovery.wait=10
 ```
-
-
-
-
-Örnek olarak şöyle olması gerekiyor;
-
-![image](https://github.com/Lorento34/redbelly/assets/84406096/ac566dfc-8efc-4118-ae1a-85a34185e52b)
-
-
 
 
 12- Start-rbn.sh dosyasını yapılandıracağız.
