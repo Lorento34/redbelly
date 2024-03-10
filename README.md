@@ -200,7 +200,8 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
 Daha sonra bu indirdiğiniz iki dosyayı ```winscp``` ya da ```termius``` gibi uygulamalar kullanarak sunucunuzun ```/root``` dizinine atın. Yani bilmeyen arkadaşlar için şöyle anlatayım, ```winscp``` ya da ```termius``` ile sunucuya bağlandıktan sonra hiçbir klasöre ya da başka bir yere girmeden ilk giriş yaptığınız yere atacaksınız dosyaları.
 
 
-![image](https://github.com/Lorento34/redbelly/assets/84406096/a7166572-dffc-4d92-a514-be4ce81f6359)
+![image](https://github.com/Lorento34/redbelly/assets/84406096/f2c67bc3-e2f5-4541-a62a-ae2b6dd37e54)
+
 
 
 
