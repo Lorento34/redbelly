@@ -174,7 +174,8 @@ sudo chown -R $USER:$USER /etc/letsencrypt/
 > - Aşağıda ki çıktı örnektir. Size sarı ile işaretli komutları kendi bilgilerinize göre düzenliyeceksiniz :bangbang:
 > - Mavi ile işaretli sertifika ```fullchain.pem``` ve key ```privkey.pem``` çıktılarını metin belgesine kaydedin ileride kullanacağız  :bangbang:
 
-![Ekran görüntüsü 2024-03-09 223513](https://github.com/Lorento34/redbelly/assets/84406096/cc1ff91d-4c2a-4540-a5d2-6a0b24aeac28)
+
+![Ekran görüntüsü 2024-03-09 223513](https://github.com/Lorento34/redbelly/assets/84406096/8848743d-3e85-49a3-a728-7bf159a05772)
 
 
 
