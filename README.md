@@ -157,7 +157,7 @@ apt install net-tools
 netstat -an | grep 80
 ```
 
-4- Aşağıda ki komutu bir metin belgesine kaydedin. Ardından ```xxx@mail.com``` ve ```domainadresiniz.com```’u kendi bilgilerinize göre değiştirin. Bu komutu girdikten sonra domaininize sertifika almış olacaksınız.
+4- Bu komut önemli çünkü domain adresinize sertifika alacaksınız ve kullanacağınız komut sonrası size bir çıktı verecek onu bir metin belgesine kaydedin çünkü ileride kullanacaksınız. Aşağıda ki komutu bir metin belgesine kaydedin. Ardından ```xxx@mail.com``` ve ```domainadresiniz.com```’u kendi bilgilerinize göre değiştirin. Bu komutu girdikten sonra domaininize sertifika almış olacaksınız.
 
 > [!CAUTION]
 > - Aşağıda ki komutu kesinlikle kendi bilgilerinize göre değiştirin :bangbang:
@@ -169,6 +169,14 @@ fqn=domainadresiniz.com
 sudo certbot certonly --standalone -d $fqn. --non-interactive --agree-tos -m $email
 sudo chown -R $USER:$USER /etc/letsencrypt/
 ```
+
+> [!CAUTION]
+> - Aşağıda ki çıktı örnektir. Size sarı ile işaretli komutları kendi bilgilerinize göre düzenliyeceksiniz :bangbang:
+> - Mavi ile işaretli sertifika ```fullchain.pem``` ve key ```privkey.pem``` çıktılarını metin belgesine kaydedin ileride kullanacağız  :bangbang:
+
+![Ekran görüntüsü 2024-03-09 223513](https://github.com/Lorento34/redbelly/assets/84406096/cc1ff91d-4c2a-4540-a5d2-6a0b24aeac28)
+
+
 
 5- Bağımlılıkları yükleme/yükseltme
 
