@@ -226,10 +226,10 @@ nano config.yaml
 > [!CAUTION]
 > - Aşağıda ki komut örnektir. Kesinlikle kendi bilgilerinize göre düzenleyin :bangbang:
 > - Domain adresiniz aşağıda ki gibi olacak. Yani başında www, http ya da sonunda nokta, / gibi semboller olmayacak :bangbang:
-> - Metamask adresinizin private keyini vereceğiniz için kesinlikle bu işlem için yeni bir metamask hesabı açın ve onu kullanın :bangbang:
-> - Değiştireceğiniz kısımlar şöyle;<b>```ip: Domain adresiniz```, ```id: Size verilen Numara```, ```privateKeyHex: Metamask adresinizin private keyi```</b>
+> - Metamask adresinizin private keyini vereceksiniz bundan dolayı kesinlikle bu işlem için yeni bir metamask hesabı açın ve onu kullanın :bangbang:
+> - Değiştireceğiniz kısımlar şöyle;```ip: Domain adresiniz```, ```id: Size verilen Numara```, ```privateKeyHex: Metamask adresinizin private keyi```
 
-Komutu düzenledikten sonra komutun hepsin sunucunuza yapıştırın. <b>```Ctrl + o```</b> , enter ve <b>```ctrl + x```</b> yaparak çıkış yapın. 
+Komutu düzenledikten sonra komutun hepsini bir bütün halinde sunucunuza yapıştırın.```ctrl + o``` , ardından ```enter``` çıkış yapmak için ```ctrl + x```
 
 ```Processing
 ip: lorento.app
