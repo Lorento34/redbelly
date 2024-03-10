@@ -161,7 +161,7 @@ netstat -an | grep 80
 
 > [!CAUTION]
 > - Aşağıda ki komutu kesinlikle kendi bilgilerinize göre düzenleyin :bangbang:
-> - Komutları kendi bilginize göre düzenledikten sonra sunucuda tek tek değil, bir bütün olarak çalıştırın :bangbang:
+> - Komutu kendi bilginize göre düzenledikten sonra sunucuda tek tek değil, bir bütün olarak çalıştırın :bangbang:
 
 ```Swift
 email=xxx@mail.com
