@@ -355,6 +355,8 @@ echo $(( 16#$(curl -s https://domainadresin.com:8545 -X POST -H "Content-Type: a
 ![image](https://github.com/Lorento34/redbelly/assets/84406096/a9e943dd-7aa3-478a-af46-2c09077bac04)
 
 
+Düğümün (Node) senkron durumunu bakmak için <a href="https://explorer.devnet.redbelly.network/overview"><b>```Redbelly Explorer```</b></a>'de güncel bloğu kontrol edebilirsiniz.
+
 
 3- Düğüme (Node) reset atmak için aşağıda ki komutları kullanın.
 
@@ -364,16 +366,18 @@ echo $(( 16#$(curl -s https://domainadresin.com:8545 -X POST -H "Content-Type: a
 pgrep rbbc
 ```
 
-![image](https://github.com/Lorento34/redbelly/assets/84406096/0059fd7c-4f0c-4b75-9905-d37c5be99055)
+![image](https://github.com/Lorento34/redbelly/assets/84406096/f1073eab-1bd9-429c-8c04-1e7beaea9882)
 
 
-- Size verilen rakam ile rbbc'yi kapatıyoruz. ```Örnek``` kullanım şöyle ```kill 2727``` olacak. Siz kendinize göre düzenleyeceksiniz.
+
+- Size verilen rakam ile rbbc'yi kapatıyoruz. ```Örnek``` kullanım şöyle ```kill 2909``` olacak. Siz kendinize göre düzenleyeceksiniz.
 
 ```AL
 kill ****
 ```
 
-![image](https://github.com/Lorento34/redbelly/assets/84406096/af6adbd2-1982-4d22-9f49-c5aa737a1885)
+![image](https://github.com/Lorento34/redbelly/assets/84406096/97bdc835-bfda-4845-82a4-fd4c535e4a87)
+
 
 
 - Düğümü (Node) tekrardan başlatıyoruz.
