@@ -157,11 +157,11 @@ apt install net-tools
 netstat -an | grep 80
 ```
 
-4- Bu komut önemli çünkü domain adresinize sertifika alacaksınız ve kullanacağınız komut sonrası size bir çıktı verecek onu bir metin belgesine kaydedin çünkü ileride kullanacaksınız. Aşağıda ki komutu bir metin belgesine kaydedin. Ardından ```xxx@mail.com``` ve ```domainadresiniz.com```’u kendi bilgilerinize göre değiştirin. Bu komutu girdikten sonra domaininize sertifika almış olacaksınız.
+4- Bu komut önemli çünkü domain adresinize sertifika alacaksınız ve kullanacağınız komut sonrası size bir çıktı verecek onu bir metin belgesine kaydedin çünkü ileride kullanacaksınız. Aşağıda ki komutu bir metin belgesine kaydedin. Ardından ```xxx@mail.com``` ve ```domainadresiniz.com```’u kendi bilgilerinize göre düzenleyin.
 
 > [!CAUTION]
-> - Aşağıda ki komutu kesinlikle kendi bilgilerinize göre değiştirin :bangbang:
-> - Komutları kendi bilginize göre düzenledikten sonra sunucuda tek tek değil komple olarak kopyalayıp çalıştırın :bangbang:
+> - Aşağıda ki komutu kesinlikle kendi bilgilerinize göre düzenleyin :bangbang:
+> - Komutları kendi bilginize göre düzenledikten sonra sunucuda tek tek değil, bir bütün olarak çalıştırın :bangbang:
 
 ```Swift
 email=xxx@mail.com
