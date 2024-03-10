@@ -400,7 +400,8 @@ chmod +x start-rbn.sh
 tail -f $HOME/logs/rbbcLogs
 ```
 
-![image](https://github.com/Lorento34/redbelly/assets/84406096/cfc002a0-52cb-4fd5-86ed-871402bc438e)
+![image](https://github.com/Lorento34/redbelly/assets/84406096/173c5195-a324-4755-a8d8-20cc9982ea7b)
+
 
 
 
