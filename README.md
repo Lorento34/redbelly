@@ -339,16 +339,22 @@ chmod +x start-rbn.sh
 tail -f $HOME/logs/rbbcLogs
 ```
 
-![Ekran görüntüsü 2024-03-08 233819](https://github.com/Lorento34/redbelly/assets/84406096/b4d55ac5-12bf-4180-87b1-c146a4a548d4)
+![image](https://github.com/Lorento34/redbelly/assets/84406096/02a25f7e-4422-4593-aee5-8c221c9b730f)
 
 
-2- Düğümün (Node) senkronize olup olmadığını kontol etmek için aşağıda ki komutu kullanın. Bu komutta ```kendi bilginize``` göre değiştireceğiniz kısım domain adresini yazan yer. Yani ```https://domainadresin.com``` yazan yere kendi domain adresinizi yazın.
+2- Düğümün (Node) senkronize olup olmadığını kontol etmek için aşağıda ki komutu kullanın. Bu komutta ```kendi bilginize``` göre değiştireceğiniz kısım domain adresini yazan yer. Yani ```https://domainadresin.com``` yazan yere kendi domain adresinizi yazın. ```snap install jq``` komutunu bir kereliğine kullanacaksınız çünkü yeni sunucularda ```jq``` kurulu olmadığı için senkron olduğuna bakmak için kullanacağınız komut çalışmaz. İlerleyen saatlerde ya da günlerde senkron durumuna bakmak isterseniz ```snap install jq``` komutunu kullanmadan diğer komut ile kontrol edebilirsiniz.
 
-```ANTLR
+```
+snap install jq
+```
+
+```
 echo $(( 16#$(curl -s https://domainadresin.com:8545 -X POST -H "Content-Type: application/json" --data '{"method":"eth_getBlockByNumber","params":["latest",false],"id":1,"jsonrpc":"2.0"}' | jq -r .result.number | sed 's/0x//') ))
 ```
 
-![Ekran görüntüsü 2024-03-08 233709](https://github.com/Lorento34/redbelly/assets/84406096/da591976-3334-497c-88cb-aaee10914cc9)
+![image](https://github.com/Lorento34/redbelly/assets/84406096/a9e943dd-7aa3-478a-af46-2c09077bac04)
+
+
 
 3- Düğüme (Node) reset atmak için aşağıda ki komutları kullanın.
 
