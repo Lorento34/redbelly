@@ -35,12 +35,12 @@ TCP bağlantı noktaları | 8545, 8546, 1111 ve 1888 (Önerilen)
 
 
 
-Arkadaşlar rehber biraz uzun olacak üstün körü anlatıp geçtiğimde biliyorum ki telegramda birçok kişi anlayamayacak ve nasıl olduğunu soracak ya da birçok kişi hata alacak. Bu karışıklığın önüne geçmek için ve aramıza yeni katılanları da düşünerek ayrıntılı ve resimli bir rehber hazırlıyorum. Rehberde ki adımları dikkatlice okuyup, takip ederseniz sorunsuz bir şekilde kurulumu tamamlayabilirsiniz. Bu arada aşağıda kullanacağımız siteleri Türkçe'ye çevirip eee burada böyle bir şey yok demeyin. İngilizce olarak kullanın böylece aşağıda ki resimlerle senkronize gidebilirsiniz. Ben bu rehbere göre yaptım ve çalışıyor. Kurulum 3 adımdan oluşacak. Domain satın alma, domain için dns yapılandırılması ve düğüm (node) kurulumu.
+Arkadaşlar rehber biraz uzun olacak üstün körü anlatıp geçtiğimde biliyorum ki birçok kişi anlayamayacak ve nasıl olduğunu soracak ya da birçok kişi hata alacak. Bu karışıklığın önüne geçmek için ve aramıza yeni katılanları da düşünerek ayrıntılı ve resimli bir rehber hazırlıyorum. Rehberde ki adımları dikkatlice okuyup, takip ederseniz sorunsuz bir şekilde kurulumu tamamlayabilirsiniz. Bu arada bazen bir yere gitmek farklı yollar olur. Benim doğru yolum aşağıda ki yol. Bu işten çok iyi anlayan kişiler domain üzerinden dns yönlendirmelerini yapabilir. Kurulum 3 adımdan oluşacak. Domain satın alma, domain için dns yapılandırılması ve düğüm (node) kurulumu.
 
 ---
 
 # Domain Satın Alma
-Bunun için ben <a href="https://www.godaddy.com/en-ie"><b>```Godaddy```</b></a> platformunu kullandım. Kullanımı basit ve fiyat olarak uygun domainler var. 50-60 TL’ye domain alabilirsiniz. Ama siz istediğiniz platformu kullanabilirsiniz ya da önceden aldığınız bir domain varsa onu da kullanabilirsiniz. Ama ben size <a href="https://www.godaddy.com/en-ie"><b>```Godaddy```</b></a> üzerinden dns yönlendirme işlemlerini anlatacağım. Eğer bu konuya yabancıysanız sizde domaini <a href="https://www.godaddy.com/en-ie"><b>```Godaddy```</b></a> üzerinden satın alıp, kafanız karışmadan aşağıda ki rehbere göre işlemleri yapabilirsiniz. Domaini satın almadan önce mutlaka üyelik açın çünkü daha sonra bir sorun olduğunda müşteri temsilcisiyle daha rahat iletişim kurabilirsiniz. Domain satın alma kısmı zaten basit olduğu için onu anlatmıyorum. Ama domaini satın alırken sepete ekledikten sonra ödeme kısmında bir takım ekstra özellikler eklemek isteyip istemediğinizi soracak hepsini reddedin ve sadece domaini satın alın 1 yıllık. Satın almayı yaptığınızı varsayarak 2. adım olan dns yönlendirme işlemine geçiyoruz.
+Bunun için ben <a href="https://www.godaddy.com/en-ie"><b>```Godaddy```</b></a> platformunu kullandım. Kullanımı basit ve fiyat olarak uygun domainler var. 50-60 TL’ye domain alabilirsiniz. Ama siz istediğiniz platformu kullanabilirsiniz ya da önceden aldığınız bir domain varsa onu da kullanabilirsiniz. Ama ben size <a href="https://www.godaddy.com/en-ie"><b>```Godaddy```</b></a> üzerinden dns yönlendirme işlemlerini anlatacağım. Eğer bu konuya yabancıysanız sizde domaini <a href="https://www.godaddy.com/en-ie"><b>```Godaddy```</b></a> üzerinden satın alıp, kafanız karışmadan aşağıda ki rehbere göre işlemleri yapabilirsiniz. Domaini satın almadan önce mutlaka üyelik açın çünkü daha sonra bir sorun olduğunda müşteri temsilcisiyle daha rahat iletişim kurabilirsiniz. Domain satın alma kısmı zaten basit olduğu için onu anlatmıyorum...
 
 # Dns Yönlendirme
 
@@ -171,7 +171,6 @@ sudo chown -R $USER:$USER /etc/letsencrypt/
 ```
 
 > [!CAUTION]
-> - Aşağıda ki çıktı örnektir. Sarı ile işaretli komutları kendi bilgilerinize göre düzenliyeceksiniz :bangbang:
 > - Mavi ile işaretli sertifika ```fullchain.pem``` ve key ```privkey.pem``` çıktılarını metin belgesine kaydedin ileride kullanacağız  :bangbang:
 
 
