@@ -35,7 +35,7 @@ TCP bağlantı noktaları | 8545, 8546, 1111 ve 1888 (Önerilen)
 
 
 
-Arkadaşlar rehber biraz uzun olacak üstün körü anlatıp geçtiğimde biliyorum ki birçok kişi anlayamayacak ve nasıl olduğunu soracak ya da birçok kişi hata alacak. Bu karışıklığın önüne geçmek için ve aramıza yeni katılanları da düşünerek ayrıntılı ve resimli bir rehber hazırlıyorum. Rehberde ki adımları dikkatlice okuyup, takip ederseniz sorunsuz bir şekilde kurulumu tamamlayabilirsiniz. Bu arada bazen bir yere gitmek farklı yollar olur. Benim doğru yolum aşağıda ki yol. Bu işten çok iyi anlayan kişiler domain üzerinden dns yönlendirmelerini yapabilir. Kurulum 3 adımdan oluşacak. Domain satın alma, domain için dns yapılandırılması ve düğüm (node) kurulumu.
+Arkadaşlar rehber biraz uzun olacak üstün körü anlatıp geçtiğimde biliyorum ki birçok kişi anlayamayacak ve nasıl olduğunu soracak ya da birçok kişi hata alacak. Bu karışıklığın önüne geçmek için ve aramıza yeni katılanları da düşünerek ayrıntılı ve resimli bir rehber hazırlıyorum. Rehberde ki adımları dikkatlice okuyup, takip ederseniz sorunsuz bir şekilde kurulumu tamamlayabilirsiniz. Bu arada bazen bir yere gitmek için farklı yollar olabilir. Benim doğru yolum aşağıda ki yol. Bu işten çok iyi anlayan kişiler domain üzerinden dns yönlendirmelerini yapabilir. Kurulum 3 adımdan oluşacak. Domain satın alma, domain için dns yapılandırılması ve düğüm (node) kurulumu.
 
 ---
 
@@ -225,20 +225,20 @@ nano config.yaml
 
 > [!CAUTION]
 > - Aşağıda ki komut örnektir. Kesinlikle kendi bilgilerinize göre düzenleyin :bangbang:
-> - Domain adresiniz aşağıda ki gibi olacak. Yani başında www, http ya da sonunda nokta, / gibi semboller olmayacak :bangbang:
+> - Domain adresinizin başında www, http ya da sonunda nokta, / gibi semboller olmayacak :bangbang:
 > - Metamask adresinizin private keyini vereceksiniz bundan dolayı kesinlikle bu işlem için yeni bir metamask hesabı açın ve onu kullanın :bangbang:
 > - Değiştireceğiniz kısımlar şöyle;```ip: Domain adresiniz```, ```id: Size verilen Numara```, ```privateKeyHex: Metamask adresinizin private keyi```
 
 Komutu düzenledikten sonra komutun hepsini bir bütün halinde sunucunuza yapıştırın.```ctrl + o``` , ardından ```enter``` çıkış yapmak için ```ctrl + x```
 
 ```Processing
-ip: sakultaroll.app
-id: 33
+ip: xxxxxx
+id: xx
 genesisContracts:
   bootstrapContractsRegistryAddress: 0xDAFEA492D9c6733ae3d56b7Ed1ADB60692c98Bc5
 consensusPort: 1888
 grpcPort: 1111
-privateKeyHex: ef71578b448ee9b9a7c112e4567d9j654e94gge164109bf820034f467h1903Bjk
+privateKeyHex: xxxxxx
 poolConfig:
   initCap: 5
   maxCap: 30
