@@ -226,7 +226,7 @@ nano config.yaml
 > [!CAUTION]
 > - Aşağıda ki komut örnektir. Kesinlikle kendi bilgilerinize göre düzenleyin :bangbang:
 > - Domain adresinizin başında www, http ya da sonunda nokta, / gibi semboller olmayacak :bangbang:
-> - Metamask adresinizin private keyini vereceksiniz bundan dolayı kesinlikle bu işlem için yeni bir metamask hesabı açın ve onu kullanın :bangbang:
+> - Metamask adresinizin private keyini vereceksiniz bundan dolayı kesinlikle bu işlem için yeni bir hesabı açın ve onu kullanın :bangbang:
 > - Değiştireceğiniz kısımlar şöyle;```ip: Domain adresiniz```, ```id: Size verilen Numara```, ```privateKeyHex: Metamask adresinizin private keyi```
 
 Komutu düzenledikten sonra komutun hepsini bir bütün halinde sunucunuza yapıştırın.```ctrl + o``` , ardından ```enter``` çıkış yapmak için ```ctrl + x```
