@@ -316,7 +316,7 @@ mkdir -p logs
 nohup ./observe.sh > ./logs/rbbcLogs 2>&1 &
 ```
 
-14- Kurlumun bu kadar. Şimdi sadece düğümü (Node) çalıştırmaya geldi sıra. Aşğıda ki komutları sırasıyla sunucuda çalıştırın. Komutlar herhangi bir çıktı vermeyecek. Eğer yukarıda anlatılan talimatları iyi okuyup, eksiksiz yaptıysanız sorunsuz çalışacaktır düğüm (Node)
+14- Kurlumun bu kadar. Şimdi sadece düğümü (Node) çalıştırmaya geldi sıra. Aşağıda ki komutları sırasıyla sunucuda çalıştırın. Komutlar herhangi bir çıktı vermeyecek. Eğer yukarıda anlatılan talimatları iyi okuyup, eksiksiz yaptıysanız sorunsuz çalışacaktır.
 
 ```ActionScript
 chmod +x observe.sh
